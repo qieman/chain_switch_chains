@@ -1,0 +1,18 @@
+{
+  "name": "switch_chain_list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/qieman/switch_chain_list.git",
+  "author": "ZOU <253058016@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc index.ts && node index.js"
+  },
+  "dependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}

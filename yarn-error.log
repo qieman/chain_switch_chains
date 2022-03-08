@@ -1,0 +1,43 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Users\zfd\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add tyscript
+
+PATH: 
+  D:\switch_chain_list\node_modules\.bin;C:\Python310\Scripts\;C:\Python310\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;d:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Users\zfd\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\zfd\AppData\Local\Microsoft\WindowsApps;D:\Anaconda3;D:\Anaconda3\Scripts;d:\Microsoft VS Code\bin;C:\Users\zfd\AppData\Local\GitHubDesktop\bin;C:\Users\zfd\AppData\Local\Keybase\;C:\Users\zfd\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/tyscript: Not found
+      at Request.params.callback [as _callback] (C:\Users\zfd\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\zfd\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\zfd\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\zfd\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "switch_chain_list",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/qieman/switch_chain_list.git",
+    "author": "ZOU <253058016@qq.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
