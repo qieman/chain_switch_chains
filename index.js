@@ -33,7 +33,7 @@ function combineIcons(fromPath, output) {
             var data = fs.readFileSync(filePath, 'utf-8');
             var dataJson = JSON.parse(data);
             var key = item.replace('.json', '');
-            var string = "".concat(key, ": \"").concat(dataJson[0].url, "\"");
+            var string = "\"".concat(key, "\": \"").concat(dataJson[0].url, "\"");
             res = index !== files.length - 1 ? res + string + ',' : res + string;
         }
         catch (e) {

@@ -35,7 +35,7 @@ function combineIcons(fromPath: string, output: string) {
             let data = fs.readFileSync(filePath, 'utf-8')
             let dataJson = JSON.parse(data)
             const key = item.replace('.json', '')
-            let string = `${key}: "${dataJson[0].url}"`
+            let string = `"${key}": "${dataJson[0].url}"`
             res = index !== files.length - 1 ? res + string + ',' : res + string
         } catch (e) {
             console.log('fromPath', fromPath)
